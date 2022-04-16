@@ -1,0 +1,34 @@
+run:
+  tests: false
+
+linters:
+  disable-all: true
+  enable:
+    - asciicheck
+    - bodyclose
+    - durationcheck
+    - deadcode
+    - errcheck
+    - errorlint
+    - exportloopref
+    - gochecknoglobals
+    - gochecknoinits
+    - gocritic
+    - gocyclo
+    - godot
+    - goerr113
+    - gofmt
+    - goimports
+    - gosec
+    - gosimple
+    - govet
+    - ineffassign
+    - nilerr
+    - noctx
+    - prealloc
+    - staticcheck
+    - structcheck
+    - typecheck
+    - unparam
+    - unused
+    - varcheck
