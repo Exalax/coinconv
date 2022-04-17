@@ -10,5 +10,8 @@ lint: $(LOCAL_BIN)/golangci-lint
 test:
 	go test ./...
 
+run-example:
+	go run ./cmd/ 123.45 USD BTC
+
 $(LOCAL_BIN)/golangci-lint:
 	GOBIN=$(LOCAL_BIN) go install github.com/golangci/golangci-lint/cmd/golangci-lint@$(LINTER_VERSION)
